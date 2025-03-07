@@ -70,6 +70,66 @@ header {
     justify-self: center;
 }
 
+
+#about-me-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #B9BA6C;
+}
+
+#about-me-section>h2 {
+    grid-column: 2/3;
+    align-self: center;
+    justify-self: center;
+}
+
+#about-me-section>picture {
+    grid-row: 2/3;
+    align-self: center;
+    justify-self: center;
+
+    &>img {
+        height: 40vw;
+    }
+}
+
+#about1 {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    align-self: center;
+    justify-self: center;
+}
+
+#about2 {
+    grid-row: 3/4;
+    align-self: center;
+    justify-self: center;
+
+    &>picture>img {
+        height: 12vw;
+    }
+}
+
+#about3 {
+    grid-row: 3/4;
+    align-self: center;
+    justify-self: center;
+
+    &>picture>img {
+        height: 12vw;
+    }
+}
+
+#about4 {
+    grid-row: 3/4;
+    align-self: center;
+    justify-self: center;
+
+    &>picture>img {
+        height: 12vw;
+    }
+}
+
 @media all and (min-width: 800px){
     #menu {
         display: none;
