@@ -4,23 +4,53 @@
 
 header {
     position: fixed;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
     width: 100vw;
-    height: 15vh;
+    height: 10vh;
     background-color: #B9BA6C;
 }
 
 #logo {
-    height: 12vh;
-    padding: 1.5vh;
+    height: 8vh;
+    padding: 1vh;
 }
 
-nav>a {
+#nav1 {
+    grid-column: 3/7;
+    align-self: center;
+    justify-self: center;
+}
+
+#nav1>a {
     text-decoration: none;
-    font-size: 3vh;
+    font-size: 1.1vw;
     font-weight: bold;
     color: black;
-    padding: 3vh;
-    position: relative;
-    top: 6vh;
+    padding: 0 10px 0 10px;
+}
+
+#menu {
+    height: fit-content;
+    background-color: transparent;
+    border: transparent;
+    align-self: center;
+    justify-self: center;
+}
+
+@media all and (min-width: 800px){
+    #menu {
+        display: none;
+    }
+}
+
+@media all and (max-width: 800px){
+    #menu {
+        display: block;
+        grid-column: 7/8;
+    }
+
+    #nav1 {
+        display: none;
+    }
 }
