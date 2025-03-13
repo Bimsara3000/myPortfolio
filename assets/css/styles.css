@@ -78,6 +78,7 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: #B9BA6C;
+    margin-bottom: 10vh;
 }
 
 #about-me-section>h2 {
@@ -158,6 +159,8 @@ header {
         text-align: center;
         color: black;
     }
+
+    margin-bottom: 10vh;
 }
 
 #programming-languages {
@@ -210,6 +213,36 @@ header {
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+4,8e2c23+29,ea0052+66,f7f7f7+100 */
     background: linear-gradient(135deg,  rgba(0,0,0,1) 4%,rgba(142,44,35,1) 29%,rgba(234,0,82,1) 66%,rgba(247,247,247,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
+}
+
+#achievement-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #B9BA6C;
+}
+
+#my-achievements {
+    grid-column: 1/3;
+    text-align: center;
+}
+
+#achievement-img {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-self: center;
+    justify-self: center;
+
+    & img {
+        height: 350px;
+        width: 500px;
+    }
+}
+
+#achievement-para {
+    text-align: justify;
+    align-self: center;
+    justify-self: center;
+    padding: 50px;
 }
 
 @media all and (min-width: 800px){
