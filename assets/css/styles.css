@@ -2,6 +2,10 @@
     font-family: "Comfortaa", sans-serif;
 }
 
+html {
+    scroll-padding-top: 11vh;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -219,6 +223,7 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: #B9BA6C;
+    margin-bottom: 10vh;
 }
 
 #my-achievements {
@@ -307,6 +312,22 @@ header {
     }
 
     #hero-section>div {
+        text-align: center;
+    }
+
+    #achievement-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #my-achievements {
+        grid-column: 1/2;
+    }
+
+    #achievement-img {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #achievement-para {
         text-align: center;
     }
 }
