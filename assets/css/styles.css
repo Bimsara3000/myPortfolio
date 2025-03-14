@@ -514,6 +514,14 @@ footer {
         width: 90%;
         height: 40%;
     }
+
+    footer>picture>img {
+        height: 22vw;
+    }
+
+    footer {
+        font-size: 2vw;
+    }
 }
 
 @media all and (max-width: 500px){
