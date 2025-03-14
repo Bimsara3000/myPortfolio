@@ -354,11 +354,6 @@ header {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     background-color: #B9BA6C;
-
-    & form {
-        align-self: center;
-        justify-self: center;
-    }
 }
 
 #my-contacts {
@@ -366,6 +361,9 @@ header {
 }
 
 #form {
+    padding: 10px;
+    align-self: center;
+    justify-self: center;
     &>input,&>textarea {
         font-weight: bold;
         border-radius: 5px;
@@ -482,6 +480,11 @@ header {
             text-align: justify;
             padding: 20px;
         }
+    }
+
+    #contact-section>form>textarea {
+        width: 90%;
+        height: 40%;
     }
 }
 
