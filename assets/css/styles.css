@@ -555,4 +555,18 @@ footer {
             grid-column: 1/2;
         }
     }
+
+    #hero-section {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media all and (max-height: 620px){
+    #hero-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #hero-section>picture>img {
+        height: 65vh;
+    }
 }
