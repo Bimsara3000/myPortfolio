@@ -559,6 +559,10 @@ footer {
     #hero-section {
         grid-template-columns: 1fr;
     }
+
+    html {
+        font-size: 12px;
+    }
 }
 
 @media all and (max-height: 620px){
