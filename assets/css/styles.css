@@ -567,6 +567,10 @@ footer {
     html {
         font-size: 12px;
     }
+
+    #hero-section>picture>img {
+        height: 58vw;
+    }
 }
 
 @media all and (max-height: 620px){
@@ -576,5 +580,11 @@ footer {
 
     #hero-section>picture>img {
         height: 65vh;
+    }
+}
+
+@media all and (max-width: 450px){
+    html {
+        font-size: 10px;
     }
 }
