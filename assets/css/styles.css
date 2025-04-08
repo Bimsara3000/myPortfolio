@@ -526,6 +526,10 @@ footer {
     footer {
         font-size: 2vw;
     }
+
+    html {
+        font-size: 14px;
+    }
 }
 
 @media all and (max-width: 500px){
