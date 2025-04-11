@@ -157,8 +157,8 @@ header {
 }
 
 .card {
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#333333+0,871b40+100 */
-    background: linear-gradient(to bottom,  rgb(51,51,51) 0%,rgb(135,27,64) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#09122c+0,872341+45,be3144+65,e17564+85 */
+    background: linear-gradient(to bottom,  rgb(9,18,44) 0%,rgb(135,35,65) 45%,rgb(190,49,68) 65%,rgb(225,117,100) 85%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
     border-radius: 15px;
     padding: 20px;
@@ -412,7 +412,8 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: black;
-    height: 400px;
+    height: 50%;
+    padding: 2%;
 
     &>picture,&>div,&>p {
         align-self: center;
@@ -493,7 +494,7 @@ footer {
 
         & video {
             width: 90%;
-            padding: 5%;
+            padding: 1vw;
         }
 
         & p {
@@ -597,7 +598,7 @@ footer {
     }
 }
 
-@media all and (max-height: 620px){
+@media all and (max-height: 690px){
     #hero-section {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -621,7 +622,7 @@ footer {
     }
 }
 
-@media all and (max-width: 600px){
+@media all and (max-width: 670px){
 
     #hero-section>picture>img {
         height: 58vw;
