@@ -37,7 +37,20 @@
     </nav>
 
     <button id="menu"><i class="fa-solid fa-bars" style="color: #000000;"></i></button>
+
 </header>
+
+<div id="menu-container">
+    <div id="menu-box">
+
+        <a href="#about-me">ABOUT ME</a>
+        <a href="#skills">MY SKILLS</a>
+        <a href="#my-achievements">MY ACHIEVEMENTS</a>
+        <a href="#my-projects">MY PROJECTS</a>
+        <a href="#my-contacts">CONTACT ME</a>
+
+    </div>
+</div>
 
 <main>
     <section id="hero-section">
@@ -280,6 +293,21 @@
     <p><b>C2025 BIMSARA KALUPAHANA</b></p>
 </footer>
 
+<script src="assets/lib/jquery-3.7.1.min.js"></script>
 <script src="assets/lib/fontawesome/js/all.js"></script>
+
+<script>
+
+    $("#menu-container").css("display","none");
+
+    $("#menu").on("click", function () {
+        $("#menu-container").css("display","block");
+    });
+
+    $("#menu-box").on("mouseleave", function () {
+        $("#menu-container").css("display","none");
+    });
+
+</script>
 </body>
 </html>
