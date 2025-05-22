@@ -19,6 +19,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="assets/lib/fontawesome/css/all.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 <body>
@@ -36,7 +37,7 @@
         <a href="#my-contacts">CONTACT ME</a>
     </nav>
 
-    <button id="menu"><i class="fa-solid fa-bars" style="color: #000000;"></i></button>
+    <button id="menu"><i class="fa-solid fa-bars" style="color: white;"></i></button>
 
 </header>
 
@@ -54,9 +55,6 @@
 
 <main>
     <section id="hero-section">
-        <picture>
-            <img src="assets/images/me.png" alt="Profile picture">
-        </picture>
         <div>
             <h1>HI!</h1>
             <h1>I'M BIMSARA KALUPAHANA</h1>
@@ -65,8 +63,8 @@
     </section>
 
     <section id="about-me-section">
-        <h2 id="about-me">ABOUT ME</h2>
-        <picture>
+        <h1 id="about-me">ABOUT ME</h1>
+        <picture data-aos="fade-right">
             <img src="assets/images/about_me.png" alt="Profile picture 02">
         </picture>
         <div id="about1">
@@ -81,27 +79,27 @@
             </p>
         </div>
 
-        <div id="about2" class="card">
+        <div id="about2" class="card" data-aos="fade-right">
             <picture>
-                <img src="assets/images/ds.png" alt="D.S.College Logo">
+                <img id="ds" src="assets/images/D._S._Senanayake_College_crest.png" alt="D.S.College Logo">
             </picture>
             <p>
                 Successfully completed my A/L in Math & IT stream at D. S. Senanayake College with 3As!
             </p>
         </div>
 
-        <div id="about3" class="card">
+        <div id="about3" class="card" data-aos="fade-up">
             <picture>
-                <img src="assets/images/idm.png" alt="IDM Campus Logo">
+                <img id="idm" src="assets/images/idm_logo.png" alt="IDM Campus Logo">
             </picture>
             <p>
                 Successfully completed Diploma in Office Applications with Web at IDM with Distinction!
             </p>
         </div>
 
-        <div id="about4" class="card">
+        <div id="about4" class="card" data-aos="fade-left">
             <picture>
-                <img src="assets/images/ijse.png" alt="IJSE Campus Logo">
+                <img id="ijse" src="assets/images/ijse2.png" alt="IJSE Campus Logo">
             </picture>
             <p>
                 Currently pursuing Graduate Diploma in Software Engineering at IJSE!
@@ -110,9 +108,9 @@
     </section>
 
     <section id="skill-section">
-        <h2 id="skills">MY SKILLS</h2>
-        <div id="programming-languages">
-            <h4>PROGRAMMING LANGUAGES</h4>
+        <h1 id="skills">MY SKILLS</h1>
+        <div id="programming-languages" data-aos="fade-right">
+            <h3>PROGRAMMING LANGUAGES</h3>
             <div>
                 <picture>
                     <img src="assets/images/java.png" alt="Java Logo" height="90px">
@@ -130,8 +128,8 @@
                 </p>
             </div>
         </div>
-        <div id="front-end">
-            <h4>FRONT-END</h4>
+        <div id="front-end" data-aos="fade-left">
+            <h3>FRONT-END</h3>
             <div>
                 <picture>
                     <img src="assets/images/html.png" alt="HTML Logo" height="90px">
@@ -149,8 +147,8 @@
                 </p>
             </div>
         </div>
-        <div id="back-end">
-            <h4>BACK-END</h4>
+        <div id="back-end" data-aos="fade-right">
+            <h3>BACK-END</h3>
             <div>
                 <picture>
                     <img src="assets/images/sql.png" alt="SQL Logo" height="90px">
@@ -160,8 +158,8 @@
                 </p>
             </div>
         </div>
-        <div id="other">
-            <h4>OTHER TECHNICAL SKILLS</h4>
+        <div id="other" data-aos="fade-left">
+            <h3>OTHER TECHNICAL SKILLS</h3>
             <div>
                 <picture>
                     <img src="assets/images/linux.png" alt="Linux Logo" height="90px">
@@ -174,9 +172,9 @@
     </section>
 
     <section id="achievement-section">
-        <h2 id="my-achievements">MY ACHIEVEMENTS</h2>
+        <h1 id="my-achievements">MY ACHIEVEMENTS</h1>
         <div id="achievement-para">
-            <h1>THE FIRST RUNNERS-UP OF GENESYS HACKATHON</h1>
+            <h2>THE FIRST RUNNERS-UP OF GENESYS HACKATHON</h2>
             <div>
                 <p>
                     As the team leader of Tech Titans, I successfully led our team to secure the first runners-up position in the IJSE Campus Hackathon Genesys, a competitive problem-solving challenge.
@@ -190,19 +188,19 @@
             </div>
         </div>
         <div id="achievement-img">
-            <picture>
+            <picture data-aos="fade-left">
                 <img src="assets/images/gen1.png" alt="Genesys Hackathon solo photo">
             </picture>
-            <picture>
+            <picture data-aos="fade-left">
                 <img src="assets/images/gen2.png" alt="Genesys Hackathon team photo">
             </picture>
         </div>
     </section>
 
     <section id="project-section">
-        <h2 id="my-projects">MY PROJECTS</h2>
-        <div id="tic-tac-toe">
-            <h1>TIC-TAC-TOE WITH MINIMAX AI</h1>
+        <h1 id="my-projects">MY PROJECTS</h1>
+        <div id="tic-tac-toe" data-aos="fade-right">
+            <h2>TIC-TAC-TOE WITH MINIMAX AI</h2>
             <video
                     autoplay
                     muted
@@ -227,8 +225,8 @@
             </div>
         </div>
 
-        <div id="rubyhall">
-            <h1>RUBYHALL HOTEL ROOM RESERVATION SYSTEM</h1>
+        <div id="rubyhall" data-aos="fade-left">
+            <h2>RUBYHALL HOTEL ROOM RESERVATION SYSTEM</h2>
             <div>
                 <p>
                     The Ruby Hall Hotel Room Reservation System is a digital solution developed to replace the hotel's manual booking process. It automates reservations, guest management, room assignments, and payment processing, reducing staff workload and minimizing errors.                </p>
@@ -256,22 +254,106 @@
                 <source src="assets/videos/rubyhall(stand-in).mp4" type="video/mp4">
             </video>
         </div>
+
+        <div id="assignments">
+            <div data-aos="fade-right">
+                <h3>Assignment 01</h3>
+                <picture>
+                    <img src="assets/images/assignments/figma.PNG" alt="assignment 01 image">
+                </picture>
+                <div>
+                    <button class="button-3" role="button"><a href="https://www.figma.com/design/jmX68igeJdOlDAKJGhMQsY/My-Portfolio?node-id=0-1&p=f&t=5yZe49mHz68lsC6R-0">Check it out on Figma!</a></button>
+                </div>
+            </div>
+            <div data-aos="fade-up">
+                <h3>Assignment 02</h3>
+                <picture>
+                    <img src="assets/images/assignments/portfolio-html_structure.PNG" alt="assignment 01 image">
+                </picture>
+                <div>
+                    <button class="button-3" role="button"><a href="https://github.com/Bimsara3000/myPortfolio.git">Check it out on GitHub!</a></button>
+                </div>
+            </div>
+            <div data-aos="fade-left">
+                <h3>Assignment 03</h3>
+                <picture>
+                    <img src="assets/images/assignments/Assignment-03.PNG" alt="assignment 01 image">
+                </picture>
+                <div>
+                    <button class="button-3" role="button"><a href="https://github.com/Bimsara3000/IT-Assignment-03.git">Check it out on GitHub!</a></button>
+                </div>
+            </div>
+            <div data-aos="fade-right">
+                <h3>Assignment 04</h3>
+                <picture>
+                    <img src="assets/images/assignments/Assignment-04.PNG" alt="assignment 01 image">
+                </picture>
+                <div>
+                    <button class="button-3" role="button"><a href="https://github.com/Bimsara3000/IT-Assignment_04.git">Check it out on GitHub!</a></button>
+                </div>
+            </div>
+            <div data-aos="fade-up">
+                <h3>Assignment 05</h3>
+                <picture>
+                    <img src="assets/images/assignments/portfolio1.PNG" alt="assignment 01 image">
+                </picture>
+                <div>
+                    <button class="button-3" role="button"><a href="https://github.com/Bimsara3000/myPortfolio.git">Check it out on GitHub!</a></button>
+                </div>
+            </div>
+            <div data-aos="fade-left">
+                <h3>Assignment 06</h3>
+                <picture>
+                    <img src="assets/images/assignments/pos1.PNG" alt="assignment 01 image">
+                </picture>
+                <div>
+                    <button class="button-3" role="button"><a href="https://github.com/Bimsara3000/Bimsara_POS_System.git">Check it out on GitHub!</a></button>
+                </div>
+            </div>
+            <div data-aos="fade-right">
+                <h3>Assignment 07</h3>
+                <picture>
+                    <img src="assets/images/assignments/SPA.PNG" alt="assignment 01 image">
+                </picture>
+                <div>
+                    <button class="button-3" role="button"><a href="https://github.com/Bimsara3000/Bimsara_POS_System.git">Check it out on GitHub!</a></button>
+                </div>
+            </div>
+            <div data-aos="fade-up">
+                <h3>Assignment 08</h3>
+                <picture>
+                    <img src="assets/images/assignments/Assignment-08.PNG" alt="assignment 01 image">
+                </picture>
+                <div>
+                    <button class="button-3" role="button"><a href="https://github.com/Bimsara3000/IT-Assignment_08.git">Check it out on GitHub!</a></button>
+                </div>
+            </div>
+            <div data-aos="fade-left">
+                <h3>Assignment 09</h3>
+                <picture>
+                    <img src="assets/images/assignments/Assignment-09.PNG" alt="assignment 01 image">
+                </picture>
+                <div>
+                    <button class="button-3" role="button"><a href="https://github.com/Bimsara3000/IT-Assignment_09.git">Check it out on GitHub!</a></button>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="contact-section">
-        <h2 id="my-contacts">MY CONTACTS</h2>
-        <form action="http://localhost:8080/form" method="post" id="form">
+        <h1 id="my-contacts">MY CONTACTS</h1>
+        <form action="http://localhost:8080/form" method="post" id="form" data-aos="fade-up">
             <input type="text" placeholder="NAME"><br><br>
             <input type="email" placeholder="EMAIL"><br><br>
             <textarea placeholder="MESSAGE" rows="13" cols="80"></textarea><br><br>
             <button type="submit" class="button-3">SEND</button><br><br>
         </form>
         <div id="links">
-            <div>
+            <div data-aos="fade-right">
                 <i class="fa-brands fa-github fa-2xl"></i>
                 <a href="https://github.com/Bimsara3000">GitHub</a>
             </div>
-            <div>
+            <div data-aos="fade-left">
                 <i class="fa-brands fa-linkedin fa-2xl"></i>
                 <a href="https://www.linkedin.com/in/bimsara-kalupahana-82b450321/">LinkedIn</a>
             </div>
@@ -295,6 +377,10 @@
 
 <script src="assets/lib/jquery-3.7.1.min.js"></script>
 <script src="assets/lib/fontawesome/js/all.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 <script>
 
